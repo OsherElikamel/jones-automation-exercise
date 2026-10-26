@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+
+# Playwright artifacts
+test-results/
+playwright-report/
+
+# Screenshots are run-specific; only the committed example is kept
+screenshots/*
+!screenshots/example-before-submit.png
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
